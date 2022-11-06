@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timon & Pubma | Game</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <main class="main">
+        <h1>Тимон и Пумба</h1>
+
+        <div class="main-form">
+            <div class="form">
+                <input type="text" class="name-field" placeholder="Введите имя">
+                <button class="btn-to-play disabled">
+                    <span>Играть</span>
+                    <div class="hint">Для старта игры минимум 3 символа для имени</div>
+                </button>
+            </div>
+            <div class="select-character">
+                <label>
+                    <input type="radio" name="character" data-name="timon" checked>
+                    <img src="images/timon.png">
+                </label>
+                <label>
+                    <input type="radio" name="character" data-name="pumba">
+                    <img src="images/pumba.png">
+                </label>
+            </div>
+
+            <button class="rules-btn">Правила</button>
+
+            <div class="rules-text">
+                <p>Введите ник для начала игры, собирайте гусениц, чтоб не погибнуть, каждую секунды вы теряете по 1 HP, дойдите до конца уровня за минимальное количество времени и покажите лучшие результаты среди игроков!</p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+

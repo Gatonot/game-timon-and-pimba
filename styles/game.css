@@ -1,0 +1,46 @@
+@import url('./global.css');
+
+:root {
+    --primary-color: #4eadf5;
+}
+
+body {
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+canvas {
+    background: linear-gradient(0deg, #85defb 0%, #4eadf5 100%);;
+    margin: 0 auto;
+}
+
+.player-info {
+    background: rgba(0, 0, 0, 0.322);
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 24px 32px;
+    gap: 30px;
+    border-radius: 0 0 100% 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.box span {
+    font-weight: 700;
+    color: #fff;
+}
+
+.health-box span {
+    min-width: 30px;
+}
