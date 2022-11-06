@@ -2,9 +2,11 @@
 V.1.0.0
 
 ## CONTROL TO GAME
-`Ctrl - to jump`
-`LeftArrow - to move left`
-`RightArrow - to move right`
+```
+  Ctrl - to jump
+  LeftArrow - to move left
+  RightArrow - to move right
+```
 
 
 ### TODO
